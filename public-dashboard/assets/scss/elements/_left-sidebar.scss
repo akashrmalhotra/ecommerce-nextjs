@@ -642,30 +642,54 @@
     }
 }
 
-header{
-    display: flex;
+// Scoped class: global CSS (e.g. Bootstrap reboot) sets `header { display: block }`, which
+// stacks `.headerleft` and `.header-right` on two rows. Force a single flex row for dashboard.
+header.dashboard-top-header {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 12px;
     padding: 13px 29px;
     background: #fff;
-    .headerleft{
-        .collups-show-icon{
+    .headerleft {
+        flex: 0 0 auto;
+        min-width: 0;
+        .collups-show-icon {
             cursor: pointer;
-            i{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 0;
+            i {
                 font-size: 20px;
                 color: #2D3B29;
                 font-weight: 500;
                 display: none;
             }
-            &.collapsed{
-                img{
+            &.collapsed {
+                img {
                     display: none;
                 }
-                i{
+                i {
                     display: block;
                 }
             }
         }
+    }
+    .header-right {
+        flex: 0 1 auto;
+        margin-left: auto;
+        min-width: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .action-interactive-area__header {
+        flex-wrap: nowrap !important;
     }
 }
 

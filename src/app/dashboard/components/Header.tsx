@@ -50,7 +50,7 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
   ];
 
   return (
-    <header className="header-one">
+    <header className="dashboard-top-header">
       <div className="headerleft">
         <div className="collups-show-icon" onClick={onToggleSidebar}>
           <Image
