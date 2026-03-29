@@ -1,0 +1,48 @@
+
+// testimoniasl areas start
+.pr_lg--10{
+    @media #{$smlg-device} {
+        padding-right: 10px;
+    }
+}
+
+.single-customers-feedback-area{
+    padding: 40px;
+    border: 1px solid #E2E2E2;
+    // box-shadow: 0px 14px 70px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+    @media #{$large-mobile} {
+        padding: 20px;
+    }
+    .top-thumbnail-area{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #E2E2E2;
+        @media #{$large-mobile} {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 11px;
+        }
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            .title{
+                margin-bottom: 0;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            span{
+                font-size: 14px;
+                color: var(--color-primary);
+            }
+        }
+    }
+    p.disc{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

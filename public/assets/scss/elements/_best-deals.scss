@@ -1,0 +1,84 @@
+
+// best deals area start
+.color-white{
+    color: #fff;
+}
+.weekly-best-deals-top-primary-wrapper{
+    border-radius: 6px;
+    .title-area-between{
+        padding: 20px 30px;
+        background: var(--color-primary);
+        border-radius: 6px 6px 0 0;
+        margin-bottom: 0;
+    }
+    .body-best-deals-padding{
+        padding: 30px;
+        background: #fff;
+        @media #{$large-mobile} {
+            padding: 15px;
+        }
+        .single-shopping-card-one{
+            border: 1px solid #E2E2E2 !important;
+            .thumbnail-preview{
+                height: 220px;
+                width: 230px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                @media #{$smlg-device} {
+                    width: 100%;
+                }
+            }
+            .body-content{
+                .top{
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #E2E2E2;
+                    .stars-area{
+                        margin-bottom: 10px;
+                        i{
+                            margin-right: 1px;
+                            color: #FF9A00;
+                        }
+                        span{
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.title-area-between.with-progress{
+    .title-left{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .countdown{
+        margin-right: 30px;
+    }
+}
+.single-shopping-card-one.tranding-product.with-progress{
+    display: flex;
+    align-items: center;
+    @media #{$smlg-device} {
+        flex-direction: column;
+    }
+}
+
+.bottom-content-deals{
+    span{
+        font-size: 16px;
+        color: #141414;
+        font-weight: 600;
+    }
+    .single-progress-area-incard{
+        margin-top: 10px;
+        .progress{
+            height: 5px;
+            border-radius: 5px;
+            .progress-bar{
+                background: #DC2626;
+            }
+        }
+    }
+}

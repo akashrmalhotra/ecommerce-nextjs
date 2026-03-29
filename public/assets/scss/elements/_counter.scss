@@ -1,0 +1,57 @@
+
+// counter area style
+
+.counter-area-main-wrapper{
+    padding: 60px 100px;
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    margin-top: -80px;
+    background: #fff;
+    box-shadow: 0px 20px 39px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media #{$smlg-device} {
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+    @media #{$sm-layout} {
+        padding: 25px;
+    }
+}
+
+.single-counter-area{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        right: -71px;
+        height: 40px;
+        width: 1px;
+        background: #E2E2E2;
+        @media #{$laptop-device} {
+            display: none;
+        }
+        @media #{$smlg-device} {
+            display: none;
+        }
+    }
+    &:last-child{
+        &::after{
+            display: none;
+        }
+    }
+    .title{
+        margin-bottom: 0;
+        font-size: 48px;
+    }
+    p{
+        margin-bottom: 0;
+        font-weight: 500;
+        color: #2C3C28;
+    }
+}

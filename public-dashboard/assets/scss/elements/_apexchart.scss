@@ -1,0 +1,248 @@
+.apexcharts-tooltip.apexcharts-theme-light {
+    border: 1px solid #e3e3e3;
+    background: rgba(255, 255, 255, 0.96);
+}
+.apexcharts-tooltip {
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px -4px #999;
+    cursor: default;
+    font-size: 14px;
+    left: 62px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 12;
+    transition: 0.15s ease all;
+}
+.apexcharts-tooltip {
+    border-color: transparent;
+    border: none !important;
+    overflow: visible !important;
+    border-radius: 10px !important;
+}
+
+.apexcharts-tooltip .custom-tooltip {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px 18px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none !important;
+    overflow: visible;
+    -webkit-box-shadow: 0 18px 16px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 18px 16px rgba(0, 0, 0, 0.06);
+    // &:before{
+    //     content: '';
+    //     position: absolute;
+    //     bottom: -12px;
+    //     left: 50%;
+    //     -webkit-transform: translateX(-50%);
+    //     transform: translateX(-50%);
+    //     border-left: 10px solid transparent;
+    //     border-right: 10px solid transparent;
+    //     border-top: 12px solid #fff;
+    // }
+}
+
+.apexcharts-tooltip .custom-tooltip__title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: var(--body-color);
+}
+
+.apexcharts-tooltip .custom-tooltip__subtitle {
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: var(--success-color);
+}
+
+
+.apex-xhart-area-one{
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    @media #{$large-mobile} {
+        padding: 10px;
+    }
+}
+
+.top-product-area-start{
+    padding: 30px;
+    border-radius: 10px;
+    background: #fff;
+    @media #{$laptop-device} {
+        padding: 20px;
+    }
+    @media #{$smlg-device} {
+        padding: 20px;
+    }
+    .between-area-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media #{$laptop-device} {
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        @media #{$smlg-device} {
+            flex-direction: column;
+            gap: 15px;
+            align-items: flex-start;
+        }
+        .title{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+
+.product-top-area-single{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+    .image-area{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        flex-basis: 40%;
+        .thumbnail{
+            max-width: 60px;
+            img{
+                max-width: 60px;
+                border: 1px solid #F2F3F5;
+                border-radius: 5px;
+            }
+        }
+        .information{
+            p{
+                margin-bottom: 10px;
+                font-weight: 600;
+                color: #2C3C28;
+                @media #{$laptop-device} {
+                    font-size: 14px;
+                }
+                @media #{$smlg-device} {
+                    font-size: 14px;
+                }
+            }
+            span{
+                min-width: max-content;
+                @media #{$laptop-device} {
+                    font-size: 13px;
+                }
+                @media #{$smlg-device} {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    &>div{
+        p{
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #2C3C28;
+            min-width: max-content;
+            @media #{$laptop-device} {
+                font-size: 14px;
+            }
+            @media #{$smlg-device} {
+                font-size: 14px;
+            }
+        }
+    }
+    .coupon-code,
+    .logo,
+    .indec{
+        flex-basis: 20%;
+        display: flex;
+        @media #{$laptop-device} {
+            margin-left: 7px;
+        }
+        img{
+
+        }
+    }
+    &.bottom{
+        .image-area{
+            flex-basis: 50%;
+        }
+        .coupon-code,
+        .logo,
+        .indec{
+            flex-basis: 25%;
+            display: flex;
+            img{
+
+            }
+        }
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .indec{
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        justify-content: flex-end;
+        margin-right: 40px;
+    }
+}
+
+.sale-statictics-button{
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        border: none;
+    }
+    li{
+        button{
+            border-radius: 6px !important;
+            padding: 5px 15px;
+            border: 1px solid #C6C9CC !important;
+            color: #595F69;
+            font-weight: 500;
+            &.active{
+                background: var(--color-primary) !important;
+                color: #fff !important;
+            }
+        }
+    }
+}
+
+.apex-chart-top-area-banner{
+    .title-top{
+        font-size: 20px;
+    }
+}
+
+.add-product-page{
+    padding: 30px !important;
+}
+
+
+
+
+

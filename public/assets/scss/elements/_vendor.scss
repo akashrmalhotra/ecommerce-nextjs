@@ -1,0 +1,104 @@
+
+// vendor area start
+.vendor-search-area{
+    .filter-select-area{
+        margin: 0 !important;
+        background: transparent;
+        padding: 0;
+        margin-bottom: 15px;
+        .top-filter{
+            padding: 0;
+            span{
+                font-weight: 500;
+                color: #1D271B;
+            }
+        }
+    }
+}
+
+.with-list{
+    .single-vendor-area{
+        display: flex;
+        align-items: flex-start;
+        gap: 60px;
+        @media #{$large-mobile} {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+    }
+    .single-vendor-area .location p{
+        max-width: 100%;
+    }
+    .single-vendor-area .logo-vendor img {
+        max-width: 100px;
+        height: auto;
+    }
+}
+
+.single-vendor-area{
+    padding: 40px;
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+    height: 100%;
+    @media #{$large-mobile} {
+        padding: 25px;
+    }
+    .logo-vendor{
+        max-width: max-content;
+        height: auto;
+        margin-bottom: 20px;
+        img{
+            max-width: max-content;
+            height: auto;
+        }
+    }
+    .title{
+        font-size: 24px;
+        margin-bottom: 0;
+        span{
+            padding: 4px 12px;
+            background: var(--color-primary);
+            font-size: 14px;
+            color: #fff;
+            border-radius: 2px;
+            margin-left: 10px;
+            font-weight: 400;
+            &.closed{
+                background: #DC2626;
+            }
+        }
+    }
+    .stars-area{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        margin-bottom: 30px;
+        i{
+            color: #FF9A00;
+        }
+        span{
+            margin-left: 8px;
+            color: #74787C;
+            font-weight: 500;
+        }
+    }
+    .location{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 15px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        i{
+            font-size: 20px;
+        }
+        p{
+            max-width: 70%;
+        }
+    }
+    a.rts-btn{
+        margin-top: 30px;
+    }
+}

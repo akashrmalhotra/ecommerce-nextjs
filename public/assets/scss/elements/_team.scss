@@ -1,0 +1,51 @@
+
+// team style
+.single-team-style-one{
+    &:hover{
+        .thumbnail{
+            img{
+                transform: scale(1.2);
+            }
+        }
+    }
+    a.thumbnail{
+        display: block;
+        overflow: hidden;
+        border-radius: 6px;
+        img{
+            width: 100%;
+            transition: .5s;
+        }
+    }
+    .bottom-content-area{
+        text-align: center;
+        margin-top: 7px;
+        .top{
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #E2E2E2;
+            .title{
+                margin-bottom: 4px;
+                line-height: 36px;
+                margin-top: 15px;
+            }
+            .designation{
+                font-size: 14px;
+                color: #74787C;
+            }
+        }
+        .bottom{
+            text-align: center;
+            .number{
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                gap: 10px;
+                font-size: 18px;
+                font-weight: 600;
+                color: var(--color-primary);
+            }
+        }
+    }
+}

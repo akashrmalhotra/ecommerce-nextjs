@@ -1,0 +1,115 @@
+
+// registration style
+
+.registration-wrapper-1{
+    max-width: 800px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    margin: auto;
+    text-align: center;
+    padding: 100px 150px;
+    @media #{$sm-layout} {
+        padding: 80px 50px;
+    }
+    @media #{$large-mobile} {
+        padding: 40px 15px;
+    }
+    .logo-area{
+        img{
+            max-width: 57px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.registration-form{
+    text-align: left;
+    .input-wrapper{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 30px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        label{
+            margin-bottom: 12px;
+            font-weight: 500;
+            color: #2C3C28;
+        }
+        input{
+            border-radius: 5px;
+            border: 1px solid  #EBEBEB;
+            height: 50px;
+            &:focus{
+                border: 1px solid var(--color-primary);
+            }
+        }
+    }
+    button.rts-btn{
+        max-width: 100%;
+        width: 100%;
+    }
+    .another-way-to-registration{
+        .registradion-top-text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            span{
+                font-weight: 500;
+                color: #2C3C28;
+            }
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                left: 0;
+                width: 35%;
+                height: 1px;
+                background: #E7E7E7;
+                @media #{$sm-layout} {
+                    display: none;
+                }
+            }
+            &::before{
+                position: absolute;
+                content: '';
+                right: 0%;
+                width: 35%;
+                height: 1px;
+                background: #E7E7E7;
+                @media #{$sm-layout} {
+                    display: none;
+                }
+            }
+        }
+        .login-with-brand{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            &>a{
+                flex-basis: 49%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+                border-radius: 6px;
+                border: 1px solid #EBEBEB;
+            }
+        }
+        p{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            font-size: 16px;
+            a{
+                color: #2C3C28;
+                font-weight: 600;
+                margin-left: 10px;
+            }
+        }
+    }
+}

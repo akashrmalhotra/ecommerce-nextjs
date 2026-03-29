@@ -1,0 +1,170 @@
+
+// order details area start
+
+
+.customers-details-wrapper-one-dashboard{
+    padding: 30px;
+    .title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .main-customers-details-top{
+        display: flex;
+        align-items: center;
+        gap: 146px;
+        border-bottom: 1px solid #E2E2E2;
+        padding-bottom: 35px;
+        @media #{$laptop-device} {
+            gap: 25px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        @media #{$smlg-device} {
+            gap: 25px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 19px;
+            .name{
+                margin-bottom: 5px;
+            }
+        }
+        .right-area{
+            display: flex;
+            align-items: center;
+            gap: 120px;
+            justify-content: space-between;
+            width: 100%;
+            @media #{$laptop-device} {
+                gap: 65px;
+            }
+            @media #{$smlg-device} {
+                gap: 30px;
+            }
+            .short-contact-info{
+                p{
+                    margin-bottom: 10px;
+                }
+                a{
+                    font-weight: 500;
+                    color: #2D3B29;
+                }
+            }
+        }
+    }
+}
+
+.billing-address-area-4{
+    padding:0 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E2E2E2;
+    margin-bottom: 30px;
+    &:last-child{
+        border: none;
+    }
+    .main-billing-address-wrapper{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 15px;
+        .single-billing-address{
+            flex-basis: 25%;
+            @media #{$md-layout} {
+                flex-basis:45%;
+            }
+            @media #{$sm-layout} {
+                flex-basis:45%;
+            }
+            @media #{$large-mobile} {
+                flex-basis: 100%;
+            }
+            p{
+                margin-bottom: 10px;
+                span{
+                    font-weight: 500;
+                    color: var(--color-heading-1);
+                }
+            }
+        }
+    }
+}
+
+.single-over-fiew-card{
+    padding: 26px;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    background: #FFFFFF;
+    height: 100%;
+}
+
+
+.single-over-fiew-card{
+    .top-main{
+        
+        color: #74787C;
+        font-weight: 500;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        gap: 40px;
+        @media #{$extra-device} {
+            gap: 15px;
+        }
+        @media #{$laptop-device} {
+            gap: 15px;
+        }
+        @media #{$smlg-device} {
+            gap: 5px;
+        }
+        .title{
+            font-size: 38px;
+            line-height: 1.2;
+            margin-bottom: 0;
+            word-break: keep-all;
+            @media #{$extra-device} {
+                font-size: 26px;
+            }
+            @media #{$laptop-device} {
+                font-size: 26px;
+            }
+            @media #{$smlg-device} {
+                font-size: 26px;
+            }
+        }
+        .right-primary{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            @media #{$laptop-device} {
+                gap: 5px;
+            }
+            @media #{$smlg-device} {
+                gap: 5px;
+            }
+            img{
+                @media #{$laptop-device} {
+                    max-width: 40px;
+                }
+            }
+            .increase{
+                i{
+                    color: var(--color-primary);
+                }
+                span{
+                    color: var(--color-primary);
+                }
+            }
+            img{
+                @media #{$smlg-device} {
+                    max-width: 40px;
+                }
+            }
+        }
+    }
+}

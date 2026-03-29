@@ -1,0 +1,199 @@
+
+// contact area style
+
+.rts-contact-main-wrapper-banner{
+    background-image: url(../images/contact/01.jpg);
+}
+
+.contact-banner-content{
+    max-width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 140px 0;
+    @media #{$md-layout} {
+        max-width: 80%;
+    }
+    @media #{$sm-layout} {
+        max-width: 100%;
+    }
+    @media #{$small-mobile} {
+        padding: 70px 0;
+    }
+    .title{
+        color: #fff;
+    }
+    p.disc{
+        color: #fff;
+    }
+}
+
+
+
+
+.contact-left-area-main-wrapper{
+    .title{
+        font-size: 30px;
+        margin-bottom: 10px;
+        @media #{$small-mobile} {
+            font-size: 26px;
+        }
+    }
+    p.disc{
+        max-width: 90%;
+    }
+    .location-single-card{
+        background: #F3F4F6;
+        border-radius: 6px;
+        gap: 30px;
+        display: flex;
+        align-items: flex-start;
+        padding: 40px;
+        margin-bottom: 15px;
+        .icon{
+            position: relative;
+            z-index: 1;
+            i{
+                color: var(--color-primary);
+                font-size: 24px;
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #F3F4F6;
+            }
+            &::after{
+                position: absolute;
+                content: '';
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                height: 80px;
+                width: 80px;
+                background: #fff;
+                border-radius: 50%;
+                z-index: -1;
+            }
+        }
+        .information{
+            .title{
+                margin-bottom: 5px;
+                font-size: 20px;
+                margin-bottom: 10px;
+                line-height: 20px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            a{
+                display: block;
+                &.number{
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: var(--color-heading-1);
+                    margin-bottom: 6px;
+                }
+                &.email{
+                    color: var(--color-primary);
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.contact-form-wrapper-bg{
+    padding: 80px;
+    border-radius: 6px;
+    @media #{$sm-layout} {
+        padding: 30px;
+    }
+    @media #{$large-mobile} {
+        padding: 25px;
+    }
+    @media #{$small-mobile} {
+        padding: 10px;
+    }
+}
+.single-instagram-post {
+    @media #{$laptop-device} {
+        min-width: max-content;
+    }
+    @media #{$smlg-device} {
+        min-width: max-content;
+    }
+    @media #{$md-layout} {
+        min-width: 100%;
+    }
+    @media #{$sm-layout} {
+        min-width: max-content
+    }
+}
+
+.contact-form-wrapper-1{
+    .title{
+        line-height: 20px;
+        @media #{$md-layout} {
+            line-height: 1.3;
+        }
+        @media #{$sm-layout} {
+            line-height: 1.3;
+        }
+    }
+}
+
+.contact-form-1{
+    input{
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid #E2E2E2;
+        background: #fff;
+        padding: 15px;
+    }
+    .contact-form-wrapper--half-area{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        @media #{$large-mobile} {
+            flex-direction: column;
+        }
+        .single{
+            width: 100%;
+        }
+    }
+    .nice-select{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    textarea{
+        border: 1px solid #E2E2E2;
+        height: 150px;
+        border-radius: 6px;
+        margin-top: 20px;
+        background: #fff;
+        padding: 15px;
+    }
+}
+
+.error-main-wrapper{
+    text-align: center;
+    .content-main{
+        margin: auto;
+        max-width: 60%;
+        margin-top: 60px;
+        @media #{$large-mobile} {
+            max-width: 90%;
+        }
+        .rts-btn{
+            margin: auto;
+        }
+        p{
+            margin-bottom: 30px;
+        }
+    }
+}

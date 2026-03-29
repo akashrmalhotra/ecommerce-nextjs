@@ -1,0 +1,304 @@
+
+.footer-main-content-wrapper{
+    display: flex;
+    align-items: flex-start;
+    gap: 110px;
+    justify-content: space-between;
+    @media #{$laptop-device} {
+        gap: 40px;
+    }
+    @media #{$smlg-device} {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    @media #{$md-layout} {
+        pad: 10px;
+    }
+    @media #{$sm-layout} {
+        gap: 10px;
+    }
+}
+
+.single-footer-wized{
+    .footer-title{
+        font-size: 20px;
+    }
+    .call-area{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 25px;
+        .icon{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border: 1px solid #E2E2E2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i{
+                color: var(--color-primary);
+                font-size: 18px;
+            }
+        }
+        .info{
+            span{
+                display: block;
+                color: #74787C;
+            }
+            .number{
+                color: #629D23;
+                font-size: 24px;
+                font-weight: 600;
+            }
+        }
+    }
+    .opening-hour{
+        .single{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            p{
+                color: #74787C;
+                font-size: 16px;
+                span{
+                    color: #2C3B28;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .footer-nav{
+        ul{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            li{
+                a{
+                    font-size: 16px;
+                    color: #74787C;
+                    transition: .3s;
+                    &:hover{
+                        color: var(--color-primary);
+                    }
+                }
+            }
+        }
+    }
+    p.disc-news-letter{
+        margin-bottom: 20px;
+    }
+    p.dsic{
+        margin-top: 20px;
+    }
+    .footersubscribe-form{
+        position: relative;
+        input{
+            height: 50px;
+            width: 100%;
+            border: 1px solid #E4E5EE;
+            border-radius: 4px;
+            &:focus{
+                border: 1px solid var(--color-primary);
+            }
+        }
+        button{
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 36px;
+            line-height: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+
+// rts footer area start
+.rts-footer-area-two{
+    background: #1A1A1A;
+    padding: 100px 0 78px 0;
+}
+.footer-two-main-wrapper{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media #{$md-layout} {
+        gap: 25px;
+    }
+    @media #{$sm-layout} {
+        gap: 25px;
+    }
+    .contact-information{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .start{
+        flex-basis: 24%;
+        p.disc{
+            color: rgba(161, 161, 161, 1);
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+    }
+    &.single-footer-wized{
+        flex-basis: 20%;
+    }
+    form{
+        position: relative;
+        input{
+            height: 50px;
+            border-radius: 5px;
+            background: #fff;
+            font-size: 14px;
+            color: #74787C;
+        }
+        button{
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 40px;
+            min-width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            i{
+                line-height: 0;
+            }
+        }
+    }
+    .single-footer-wized .footer-title{
+        color: #fff;
+    }
+    .single-footer-wized{
+        ul{
+            li{
+                a{
+                    color: rgba(161, 161, 161, 1);
+                }
+            }
+        }
+    }
+}
+
+
+.single-contact-information-area{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    p.disc{
+        font-size: 16px;
+        color: #fff;
+        a{
+            font-size: 24px;
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+    }
+}
+
+
+.rts-copyright-area-two{
+    background: #1A1A1A;   
+    border-top: 1px  solid #353535;
+    .copyright-arae-two-wrapper{
+        display: flex;
+        padding: 28px 0;
+        align-items: center;
+        justify-content: space-between;
+        @media #{$large-mobile} {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+        }
+        p{
+            color: #fff;
+            margin: 0;
+        }
+        span{
+            color: #fff;
+            font-weight: 600;
+        }
+        .payment-processw-area{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            span{
+                @media #{$small-mobile} {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.bg_blue-footer{
+    background: #25332C;
+    .single-footer-wized .footer-title{
+        color: #fff;
+    }
+    .single-footer-wized .call-area .info span{
+        color: #C5CBC8;
+    }
+    .single-footer-wized .call-area .icon{
+        background: #fff;
+    }
+    .single-footer-wized .opening-hour .single p span{
+        color: #C5CBC8;
+    }
+    .single-footer-wized .footer-nav ul li a{
+        color: #C5CBC8;
+    }
+    .single-footer-wized p.disc-news-letter{
+        color: #C5CBC8;
+    }
+    .single-footer-wized p.dsic{
+        color: #C5CBC8;
+    }
+    .social-and-payment-area-wrapper {
+        border-top: 1px solid #3A443F;
+    }
+    .social-one-wrapper span{
+        color: #fff;
+    }
+    .single-footer-wized .opening-hour .single p{
+        color: #74787C !important;
+    }
+    .social-and-payment-area-wrapper .payment-access{
+        span{
+            color: #fff;
+        }
+    }
+    .single-footer-wized .footersubscribe-form input{
+        color: #fff;
+    }
+}
+
+.rts-copyright-area.five-h{
+    background: #1C2923;
+    .copyright-between-1 p{
+        color: #fff;
+        a{
+            color: var(--color-primary);
+        }
+    }
+    .copyright-between-1 .playstore-app-area span{
+        color: #fff;
+    }
+}
+
+
+.modal-header .btn-close {
+    padding: .5rem .5rem;
+    margin: -.5rem -.5rem -.5rem auto;
+    right: 21px;
+    position: relative;
+}

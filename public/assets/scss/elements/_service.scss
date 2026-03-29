@@ -1,0 +1,79 @@
+
+// short service area start
+
+.single-short-service-area-start{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    @media #{$large-mobile} {
+        flex-direction: column;
+    }
+    .icon-area{
+        min-width: max-content;
+        height: 70px;
+        min-width: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+    }
+    .information{
+        .title{
+            color: #FFFFFF;
+            margin-bottom: 7px;
+            font-size: 20px;
+        }
+        p.disc{
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}
+
+
+// serce area style one
+.single-service-area-style-one{
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+    padding: 50px;
+    padding-top: 90px;
+    .icon-area{
+        margin-bottom: 15px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #E2E2E2;
+        position: relative;
+        z-index: 1;
+        margin: auto;
+        &::after{
+            position: absolute;
+            content: "";
+            left: -29px;
+            background: linear-gradient(180deg, #ffffff0d 0%, #FFFFFF 100%);
+            width: 100%;
+            height: 101px;
+            z-index: -1;
+            top: -29px;
+        }
+        .bg-text{
+            position: absolute;
+            color: #EBEDF1;
+            font-size: 120px;
+            font-weight: 700;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -70px;
+            z-index: -1;
+        }
+    }
+    .bottom-content{
+        margin-top: 20px;
+        .title{
+            margin-bottom: 8px;
+        }
+    }
+}
+
+
+

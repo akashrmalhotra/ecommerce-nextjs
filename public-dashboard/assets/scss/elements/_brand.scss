@@ -1,0 +1,42 @@
+
+// brand area start
+
+.single-brand-area-start{
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    padding: 40px 25px;
+    border-radius: 6px;
+    .logo{
+        margin-bottom: 26px;
+    }
+    .item{
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--color-primary);
+    }
+}
+
+.rating-table{
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        gap: 3px;
+        color: #eeae00;
+        li{
+            margin: 0;
+            padding: 0;
+            i{
+                color: #eeae00;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+.rating-page tbody tr td:nth-child(2) {
+    width: 15%;
+}

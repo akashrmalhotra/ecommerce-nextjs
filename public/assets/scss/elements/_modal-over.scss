@@ -1,0 +1,169 @@
+// modal over style here
+
+#myModal-1{
+    top: 50%;
+    padding-right: 0 !important;
+    transform: translateY(-30%);
+    .modal-dialog{
+        max-width: 1064px !important;
+        height: 530px !important;
+        background-image: url(../images/popover/01.webp);
+        border-radius: 10px;
+    }
+    .modal-content{
+        height: 100%;
+        background: transparent;
+        border-radius: 10px;
+        .modal-header{
+            max-width: max-content;
+            color: #fff;
+            margin-left: auto;
+            color: #fff;
+            border: none;
+            background: transparent;
+            button{
+                border: none;
+                height: 38px;
+                width: 38px;
+                background: var(--color-primary);
+                right: 14px;
+                position: absolute;
+                top: 12px;
+                z-index: 10;
+                border-radius: 5px;
+                &:hover{
+                    background: var(--color-heading-1);
+                }
+            }
+            i{
+            font-size: 18px;
+            color: #fff;
+            }
+        }
+    }
+    .modal-body { 
+        .inner-content{
+            max-width: 100%;
+            text-align: left;
+            margin-left: 0;
+            @media #{$sm-layout} {
+                max-width: 100%;
+                width: 100%;
+                margin-top: 40px;
+            }
+            .title-area{
+                .pre{
+                    font-size: 14px;
+                    color: #FFFFFF;
+                }
+                .title{
+                    font-size: 36px;
+                    color: #fff;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                }
+            }
+            form{
+                input{
+                    height: 56px;
+                    background: #fff;
+                    border-radius: 4px;
+                    border: 1px solid transparent;
+                    &:focus{
+                        border-color: #FFD335;
+                    }
+                }
+                button{
+                    background: #FFD335;
+                    color: #110C2D;
+                    display: block;
+                    padding: 12px 25px;
+                    height: 56px;
+                    border-radius: 4px;
+                    margin-top: 15px;
+                    border: 1px solid transparent;
+                    transition: .3s;
+                    font-weight: 600;
+                    &:hover{
+                        background: transparent;
+                        color: #fff;
+                        border: 1px solid #FFD335;
+                    }
+                }
+                span{
+                    color: #fff;
+                    display: block;
+                    margin-top: 20px;
+                    font-size: 14px;
+                }
+            }
+            .content{
+                padding: 80px 70px 120px 70px;
+                @media #{$sm-layout} {
+                    padding: 0;
+                }
+                @media #{$large-mobile} {
+                    padding: 0;
+                }
+                span.pre-title{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: var(--color-primary);
+                }
+                .title{
+                    font-weight: 700;
+                    margin-top: 10px;
+                    margin-bottom: 25px;
+                    font-size: 48px;
+                    @media #{$sm-layout} {
+                        line-height: 1.3;
+                    }
+                    @media #{$large-mobile} {
+                        font-size: 34px;
+                    }
+                    br{
+                        @media #{$sm-layout} {
+                            display: none;
+                        }
+                    }
+                }
+                p.disc{
+                    margin-bottom: 30px;
+                    @media #{$sm-layout} {
+                        br{
+                            display: none;
+                        }
+                    }
+                }
+                .rts-btn-banner-area{
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    @media #{$large-mobile} {
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 15px;
+                    }
+                    .price-area{
+                        display: flex;
+                        align-items: flex-end;
+                        gap: 15px;
+                        span{
+                            color: #1A1A1A;
+                            font-weight: 400;
+                        }
+                        .title{
+                            margin: 0;
+                            padding: 0;
+                            font-size: 36px;
+                            color: var(--color-primary);
+                            margin-bottom: -10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+      
+      
+}

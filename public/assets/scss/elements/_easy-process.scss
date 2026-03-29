@@ -1,0 +1,50 @@
+
+
+// easy process area style
+
+.easyway-buying-area-wrapper{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media #{$md-layout} {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    @media #{$sm-layout} {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    @media #{$large-mobile} {
+        justify-content: flex-start;
+        gap: 15px;
+    }
+    .single-easy-way-buying-area{
+        display: flex;
+        align-items:flex-start;
+        gap: 10px;
+        .icon{
+            height: 45px;
+            width: 45px;
+            border: 1px solid var(--color-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        .inforemation{
+            .title{
+                margin-bottom: 5px;
+                font-size: 18px;
+            }
+            p{
+                color: #74787C;
+                margin: 0;
+            }
+        }
+    }
+}

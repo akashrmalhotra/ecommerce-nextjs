@@ -1,0 +1,63 @@
+
+// style here
+
+
+
+.rts-btn{
+    max-width: max-content;
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    &.btn-primary{
+        background: #629D23;
+        border-radius: 6px;
+        display: block;
+        max-width: max-content;
+    }
+    &.radious-sm{
+        border-radius: 6px;
+    }
+    &.with-icon{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .arrow-icon{
+            display: inline-block;
+            transition: opacity 0.4s 0.25s, transform 0.6s 0.25s;
+            transition-timing-function: cubic-bezier(0.1, 0.75, 0.25, 1);
+        }
+        .arrow-icon + .arrow-icon {
+            margin-inline-end: 0;
+            margin-inline-start: 8px;
+            display: inline-block;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            opacity: 0;
+            transform: translateX(-10px);
+            transition-delay: 0s;
+            order: -2;
+        }
+        .btn-text{
+            display: inline-block;
+            transition: transform 0.6s 0.125s cubic-bezier(0.1, 0.75, 0.25, 1);
+            margin-inline-start: -23px;
+        }
+        &:hover{
+            .btn-text{
+                transition-delay: 0.1s;
+                transform: translateX(23px);
+            }
+            .arrow-icon + .arrow-icon{
+                opacity: 1;
+                transform: translateX(0);
+                transition-delay: 0.225s;
+            }
+            .arrow-icon{
+                opacity: 0;
+                transition-delay: 0s;
+                transform: translateX(10px);
+            }
+        }
+    }
+}

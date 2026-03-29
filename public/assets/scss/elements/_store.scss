@@ -1,0 +1,163 @@
+
+.single-store-area-start{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background: #F3F4F6;
+    border: 1px solid #E2E2E2;
+    margin-bottom: 40px;
+    overflow: hidden;
+    @media #{$laptop-device} {
+        align-items: flex-start;
+        gap: 0;
+        padding-left: 0;
+    }
+    @media #{$smlg-device} {
+        align-items: flex-start;
+        gap: 0;
+        padding-left: 0;
+    }
+    @media #{$md-layout} {
+        flex-direction: column;
+    }
+    @media #{$sm-layout} {
+        flex-direction: column;
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+    .thumbnail{
+        display: block;
+        overflow: hidden;
+        max-width: max-content;
+        @media #{$laptop-device} {
+            max-width: 100%;
+            width: 100%;
+            width: 40%;
+        }
+        @media #{$smlg-device} {
+            max-width: 100%;
+            width: 100%;
+            width: 30%;
+        }
+        @media #{$md-layout} {
+            width: 100%;
+        }
+        @media #{$sm-layout} {
+            width: 100%;
+        }
+        img{
+            max-width: max-content;
+            transition: .5s;
+            @media #{$laptop-device} {
+                max-width: 100%;
+                width: 100%;
+                max-width: 100%;
+                width: 100%;
+                height: 425px;
+                object-fit: cover;
+            }
+            @media #{$smlg-device} {
+                max-width: 100%;
+                width: 100%;
+                max-width: 100%;
+                width: 100%;
+                height: 425px;
+                object-fit: cover;
+            }
+        }
+        &:hover{
+            img{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .right-content{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        @media #{$laptop-device} {
+            padding: 25px;
+        }
+        @media #{$smlg-device} {
+            padding: 25px;
+        }
+        @media #{$sm-layout} {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0;
+        }
+        .location-area{
+            border-right: 1px solid #E2E2E2;
+            padding: 100px 60px 100px 0;
+            @media #{$smlg-device} {
+                padding: 100px 60px 100px 25px;
+            }
+            @media #{$sm-layout} {
+                padding: 30px 0;
+                border: none;
+            }
+            .icon{
+                background: #629D23;
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                position: relative;
+                z-index: 2;
+                margin-bottom: 25px;
+                i{
+                    color: #fff;
+                    z-index: 5;
+                    position: relative;
+                }
+                &::before{
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 50%;
+                    background: #629D23;
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 0;
+                }
+                &::after{
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 50%;
+                    background: #fff;
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: -1;
+                }
+                i{
+                    color: #F3F4F6;
+                }
+            }
+            .title{
+                margin-bottom: 7px;
+            }
+            p.disc{
+                margin-bottom: 20px;
+            }
+        }
+        .opening-hour{
+            .title{
+                font-size: 20px;
+                margin-bottom: 18px;
+            }
+            .single{
+                font-size: 14px;
+                margin: 7px 0;
+            }
+        }
+    }
+}

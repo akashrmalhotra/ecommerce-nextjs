@@ -1,0 +1,50 @@
+
+// navigator area start
+
+.navigator-breadcrumb-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 0;
+    .current{
+        color: #2C3C28;
+        font-weight: 500;
+    }
+}
+
+
+.pagination-area-main-wrappper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        list-style: none;
+        li{
+            margin: 0;
+            padding: 0;
+            button{
+                height: 45px;
+                width: 45px;
+                border-radius: 6px;
+                border: 1px solid #E2E2E2;
+                font-weight: 700;
+                color: #2C3C28;
+                &.active{
+                    background: var(--color-primary);
+                    border: 1px solid var(--color-primary);
+                    color: #fff;
+                }
+                &:hover{
+                    background: var(--color-primary);
+                    border: 1px solid var(--color-primary);
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

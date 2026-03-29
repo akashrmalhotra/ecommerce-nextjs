@@ -1,0 +1,87 @@
+.offer-area-main-wrapper{
+    padding: 35px 40px;
+    background: #2B4226;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    .offer-iamge{
+        position: absolute;
+        bottom: 0;
+        right: 17%;
+        height: auto;
+        height: 100%;
+        img{
+            min-width: max-content;
+            height: 100%;
+        }
+    }
+    span{
+        color: #EABC5E;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .title{
+        color: #fff;
+        margin-bottom: 15px;
+        line-height: 18px;
+        margin-top: 8px;
+        font-size: 24px;
+    }
+    p.disc{
+        margin-bottom: 0;
+        color: rgba(139, 163, 133, 1);
+    }
+}
+
+.single-new-offer-area{
+    background: #fff;
+    padding: 30px 40px 40px 40px;
+    border-radius: 6px;
+    @media #{$large-mobile} {
+        padding: 20px;
+    }
+    .new-offer-wized-title-between{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 19px;
+        border-bottom: 1px solid #E2E2E2;
+        @media #{$large-mobile} {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .rts-btn{
+            padding: 12px 25px;
+            &:hover{
+                background: var(--color-heading-1);
+                color: #629D23;
+                border: 1px solid #2c3c28;
+            }
+        }
+        .title{
+            margin: 0;
+            font-size: 30px;
+        }
+    }
+}
+
+
+
+.single-shopping-card-one.new-deal-offer-border-right{
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    &::after{
+        position: absolute;
+        right: 0;
+        content: '';
+        top: -41px;
+        bottom: 0;
+        left: calc(100% + 20px);
+        width: 1px;
+        height: 110%;
+        background: #e2e2e2;
+        z-index: -1;
+    }
+}
