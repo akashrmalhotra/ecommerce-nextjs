@@ -101,7 +101,7 @@ function ComponentName() {
                                 <div className="invoice-area-bottom">
                                     <div className="powerby">
                                         <p>Powerby</p>
-                                        <img src="assets/images/logo/fav.png" alt="" />
+                                        <img src="/favicon.ico" alt="" />
                                     </div>
                                     <p>
                                         Note:This is computer generated receipt and does not require

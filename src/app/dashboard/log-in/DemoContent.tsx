@@ -7,7 +7,7 @@ function DemoContent() {
     <div className="body-root-inner">
       <div className="registration-wrapper-1">
         <div className="logo-area mb--0">
-          <img className="mb--10" src="/assets/images/logo/fav.png" alt="logo" />
+          <img className="mb--10" src="/favicon.ico" alt="logo" />
         </div>
         <h3 className="title animated fadeIn">Login Into Your Account</h3>
         <form action="#" className="registration-form">
