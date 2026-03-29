@@ -35,8 +35,8 @@ const VendorDetailsPage = () => {
       image: '/assets/images-dashboard/grocery/08.jpg',
       time: '9 MINS',
       packSize: '500g Pack',
-      currentPrice: '$36.00',
-      previousPrice: '$36.00'
+      currentPrice: '₹36.00',
+      previousPrice: '₹36.00'
     },
     {
       id: 2,
@@ -44,8 +44,8 @@ const VendorDetailsPage = () => {
       image: '/assets/images-dashboard/grocery/09.jpg',
       time: '9 MINS',
       packSize: '500g Pack',
-      currentPrice: '$36.00',
-      previousPrice: '$36.00'
+      currentPrice: '₹36.00',
+      previousPrice: '₹36.00'
     },
     {
       id: 3,
@@ -53,8 +53,8 @@ const VendorDetailsPage = () => {
       image: '/assets/images-dashboard/grocery/10.jpg',
       time: '9 MINS',
       packSize: '500g Pack',
-      currentPrice: '$36.00',
-      previousPrice: '$36.00'
+      currentPrice: '₹36.00',
+      previousPrice: '₹36.00'
     },
     {
       id: 4,
@@ -62,8 +62,8 @@ const VendorDetailsPage = () => {
       image: '/assets/images-dashboard/grocery/11.jpg',
       time: '9 MINS',
       packSize: '500g Pack',
-      currentPrice: '$36.00',
-      previousPrice: '$36.00'
+      currentPrice: '₹36.00',
+      previousPrice: '₹36.00'
     },
     {
       id: 5,
@@ -71,8 +71,8 @@ const VendorDetailsPage = () => {
       image: '/assets/images-dashboard/grocery/12.jpg',
       time: '9 MINS',
       packSize: '500g Pack',
-      currentPrice: '$36.00',
-      previousPrice: '$36.00'
+      currentPrice: '₹36.00',
+      previousPrice: '₹36.00'
     },
     {
       id: 6,
@@ -80,8 +80,8 @@ const VendorDetailsPage = () => {
       image: '/assets/images-dashboard/grocery/13.jpg',
       time: '9 MINS',
       packSize: '500g Pack',
-      currentPrice: '$36.00',
-      previousPrice: '$36.00'
+      currentPrice: '₹36.00',
+      previousPrice: '₹36.00'
     }
   ];
 

@@ -100,7 +100,7 @@ const BlogGridMain: React.FC<BlogGridMainProps> = ({
                 <Link href={`/shop/${Slug}`}>
                     <h4 className="title">{ProductTitle ? ProductTitle : 'How to growing your business'}</h4>
                 </Link>
-                <h6 className="price">{`$${Price}`}</h6>
+                <h6 className="price">{`₹${Price}`}</h6>
             </div>
             <CompareModal show={activeModal === 'one'} handleClose={handleClose} />
             <ProductDetails

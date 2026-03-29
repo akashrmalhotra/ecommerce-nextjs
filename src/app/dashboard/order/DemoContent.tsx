@@ -22,16 +22,16 @@ const OverviewTable: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState<string>('All');
 
   const data: DataRow[] = [
-    { id: 1, orderNo: '#87451', customer: 'Esther Howard', date: '02/03/2022', amount: '$200', category: 'Notebook', status: 'Delivered' },
-    { id: 2, orderNo: '#87452', customer: 'Wade Warren', date: '02/03/2022', amount: '$220', category: 'Notebook', status: 'Delivered' },
-    { id: 3, orderNo: '#87453', customer: 'Jenny Wilson', date: '02/03/2022', amount: '$300', category: 'Notebook', status: 'Delivered' },
-    { id: 4, orderNo: '#87454', customer: 'Guy Hawkins', date: '02/03/2022', amount: '$400', category: 'Notebook', status: 'Delivered' },
-    { id: 5, orderNo: '#87455', customer: 'Robert Fox', date: '02/03/2022', amount: '$450', category: 'Notebook', status: 'Delivered' },
-    { id: 6, orderNo: '#87456', customer: 'Albert Flores', date: '02/03/2022', amount: '$220', category: 'Notebook', status: 'Delivered' },
-    { id: 7, orderNo: '#87457', customer: 'Floyd Miles', date: '02/03/2022', amount: '$270', category: 'Notebook', status: 'Delivered' },
-    { id: 8, orderNo: '#87458', customer: 'Bessie Cooper', date: '02/03/2022', amount: '$199', category: 'Notebook', status: 'Delivered' },
-    { id: 9, orderNo: '#87459', customer: 'Devon Lane', date: '02/03/2022', amount: '$120', category: 'Notebook', status: 'Delivered' },
-    { id: 10, orderNo: '#87460', customer: 'Guy Hawkins', date: '02/03/2022', amount: '$122', category: 'Notebook', status: 'Delivered' },
+    { id: 1, orderNo: '#87451', customer: 'Esther Howard', date: '02/03/2022', amount: '₹200', category: 'Notebook', status: 'Delivered' },
+    { id: 2, orderNo: '#87452', customer: 'Wade Warren', date: '02/03/2022', amount: '₹220', category: 'Notebook', status: 'Delivered' },
+    { id: 3, orderNo: '#87453', customer: 'Jenny Wilson', date: '02/03/2022', amount: '₹300', category: 'Notebook', status: 'Delivered' },
+    { id: 4, orderNo: '#87454', customer: 'Guy Hawkins', date: '02/03/2022', amount: '₹400', category: 'Notebook', status: 'Delivered' },
+    { id: 5, orderNo: '#87455', customer: 'Robert Fox', date: '02/03/2022', amount: '₹450', category: 'Notebook', status: 'Delivered' },
+    { id: 6, orderNo: '#87456', customer: 'Albert Flores', date: '02/03/2022', amount: '₹220', category: 'Notebook', status: 'Delivered' },
+    { id: 7, orderNo: '#87457', customer: 'Floyd Miles', date: '02/03/2022', amount: '₹270', category: 'Notebook', status: 'Delivered' },
+    { id: 8, orderNo: '#87458', customer: 'Bessie Cooper', date: '02/03/2022', amount: '₹199', category: 'Notebook', status: 'Delivered' },
+    { id: 9, orderNo: '#87459', customer: 'Devon Lane', date: '02/03/2022', amount: '₹120', category: 'Notebook', status: 'Delivered' },
+    { id: 10, orderNo: '#87460', customer: 'Guy Hawkins', date: '02/03/2022', amount: '₹122', category: 'Notebook', status: 'Delivered' },
   ];
 
   const columns: TableColumn<DataRow>[] = [

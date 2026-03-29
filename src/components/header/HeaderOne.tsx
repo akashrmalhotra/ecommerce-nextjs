@@ -223,11 +223,11 @@ function HeaderOne() {
                                                 </ul>
                                             </li>
                                             <li className="category-hover-header language-hover">
-                                                <a href="#">USD</a>
+                                                <a href="#">INR</a>
                                                 <ul className="category-sub-menu">
-                                                    <li><a href="#"><span>Rubol</span></a></li>
-                                                    <li><a href="#"><span>Rupi</span></a></li>
-                                                    <li><a href="#"><span>Euro</span></a></li>
+                                                    <li><a href="#"><span>INR (₹)</span></a></li>
+                                                    <li><a href="#"><span>USD ($)</span></a></li>
+                                                    <li><a href="#"><span>EUR (€)</span></a></li>
                                                 </ul>
                                             </li>
                                             <li><Link href="/trackorder">Track Order</Link></li>

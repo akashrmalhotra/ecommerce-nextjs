@@ -34,7 +34,7 @@ function MyComponent()  {
             </div>
           </div>
           <div className="coupon-code">
-            <p>$99.00</p>
+            <p>₹99.00</p>
           </div>
           <div className="indec mr--0">
             <p>5 June 2025</p>
@@ -51,7 +51,7 @@ function MyComponent()  {
             </div>
           </div>
           <div className="coupon-code">
-            <p>$86.00</p>
+            <p>₹86.00</p>
           </div>
           <div className="indec mr--0">
             <p>5 June 2024</p>
@@ -68,7 +68,7 @@ function MyComponent()  {
             </div>
           </div>
           <div className="coupon-code">
-            <p>$69.00</p>
+            <p>₹69.00</p>
           </div>
           <div className="indec mr--0">
             <p>5 Aug 2024</p>
@@ -85,7 +85,7 @@ function MyComponent()  {
             </div>
           </div>
           <div className="coupon-code">
-            <p>$49.00</p>
+            <p>₹49.00</p>
           </div>
           <div className="indec mr--0">
             <p>5 June 2023</p>
@@ -102,7 +102,7 @@ function MyComponent()  {
             </div>
           </div>
           <div className="coupon-code">
-            <p>$86.00</p>
+            <p>₹86.00</p>
           </div>
           <div className="indec mr--0">
             <p>5 June 2025</p>
@@ -119,7 +119,7 @@ function MyComponent()  {
             </div>
           </div>
           <div className="coupon-code">
-            <p>$88.00</p>
+            <p>₹88.00</p>
           </div>
           <div className="indec mr--0">
             <p>5 June 2024</p>
@@ -158,7 +158,7 @@ function MyComponent()  {
             <p>Food, Grocery</p>
           </div>
           <div className="coupon-code justify-content-center">
-            <p>$2,000</p>
+            <p>₹2,000</p>
           </div>
           <div className="indec mr--0">
             <img src="/assets/images-dashboard/grocery/02.png" alt="orrdr" />
@@ -178,7 +178,7 @@ function MyComponent()  {
             <p>Juice, Grocery</p>
           </div>
           <div className="coupon-code justify-content-center">
-            <p>$1,000</p>
+            <p>₹1,000</p>
           </div>
           <div className="indec mr--0">
             <img src="/assets/images-dashboard/grocery/02.png" alt="orrdr" />
@@ -198,7 +198,7 @@ function MyComponent()  {
             <p>Food, Grocery</p>
           </div>
           <div className="coupon-code justify-content-center">
-            <p>$1,999</p>
+            <p>₹1,999</p>
           </div>
           <div className="indec mr--0">
             <img src="/assets/images-dashboard/grocery/02.png" alt="orrdr" />
@@ -218,7 +218,7 @@ function MyComponent()  {
             <p>Food, Grocery</p>
           </div>
           <div className="coupon-code justify-content-center">
-            <p>$1,25</p>
+            <p>₹1,25</p>
           </div>
           <div className="indec mr--0">
             <img src="/assets/images-dashboard/grocery/02.png" alt="orrdr" />
@@ -238,7 +238,7 @@ function MyComponent()  {
             <p>Food, Grocery</p>
           </div>
           <div className="coupon-code justify-content-center">
-            <p>$5,653</p>
+            <p>₹5,653</p>
           </div>
           <div className="indec mr--0">
             <img src="/assets/images-dashboard/grocery/02.png" alt="orrdr" />
@@ -258,7 +258,7 @@ function MyComponent()  {
             <p>Food, Grocery</p>
           </div>
           <div className="coupon-code justify-content-center">
-            <p>$2,600</p>
+            <p>₹2,600</p>
           </div>
           <div className="indec mr--0">
             <img src="/assets/images-dashboard/grocery/02.png" alt="orrdr" />
@@ -278,7 +278,7 @@ function MyComponent()  {
             <p>Food, Grocery</p>
           </div>
           <div className="coupon-code justify-content-center">
-            <p>$1,999</p>
+            <p>₹1,999</p>
           </div>
           <div className="indec mr--0">
             <img src="/assets/images-dashboard/grocery/02.png" alt="orrdr" />

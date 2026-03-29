@@ -20,7 +20,7 @@ function FeatureTwo() {
                   </h2>
                   <div className="price-area">
                     <span>Only</span>
-                    <h3 className="price">$15.00</h3>
+                    <h3 className="price">₹15.00</h3>
                   </div>
                 </div>
               </div>
@@ -39,7 +39,7 @@ function FeatureTwo() {
                   </h2>
                   <div className="price-area">
                     <span>Only</span>
-                    <h3 className="price">$15.00</h3>
+                    <h3 className="price">₹15.00</h3>
                   </div>
                 </div>
               </div>

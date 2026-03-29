@@ -136,7 +136,7 @@ const MyComponent = () => (
               </svg>
             </div>
             <div className="inforemation">
-              <h4 className="title">Free Delivery From $70</h4>
+              <h4 className="title">Free Delivery From ₹70</h4>
               <p>Home Delivery Available </p>
             </div>
           </div>

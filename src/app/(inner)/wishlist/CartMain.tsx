@@ -75,7 +75,7 @@ const CartMain = () => {
           <div className="col-xl-12 col-12 order-2 order-xl-1">
             <div className="cart-area-main-wrapper">
               <div className="cart-top-area-note">
-                <p>Add <span>$59.69</span> to cart and get free shipping</p>
+                <p>Add <span>₹59.69</span> to cart and get free shipping</p>
                 <div className="bottom-content-deals mt--10">
                   <div className="single-progress-area-incard">
                     <div className="progress">
@@ -109,7 +109,7 @@ const CartMain = () => {
                       <span>SKU:SKUZNFER</span>
                     </div>
                   </div>
-                  <div className="price"><p>${item.price.toFixed(2)}</p></div>
+                  <div className="price"><p>₹{item.price.toFixed(2)}</p></div>
                   <div className="quantity">
                     <div className="quantity-edit">
                       <input type="text" className="input" value={item.quantity} readOnly />
@@ -131,7 +131,7 @@ const CartMain = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="subtotal"><p>${(item.price * item.quantity).toFixed(2)}</p></div>
+                  <div className="subtotal"><p>₹{(item.price * item.quantity).toFixed(2)}</p></div>
                   <div className="button-area">
                     <a href="#" className="rts-btn btn-primary radious-sm with-icon"
                       onClick={e => {

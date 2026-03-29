@@ -33,7 +33,7 @@ function BannerFour() {
                                         </Link>
                                         <div className="price-area">
                                             <span>from</span>
-                                            <h3 className="title">$80.99</h3>
+                                            <h3 className="title">₹80.99</h3>
                                         </div>
                                     </div>
                                 </div>

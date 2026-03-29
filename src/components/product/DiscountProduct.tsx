@@ -62,7 +62,7 @@ function DiscountProduct() {
                                                 </h4>
                                                 <div className="price-area">
                                                     <span>Only</span>
-                                                    <h4 className="title">$15.00</h4>
+                                                    <h4 className="title">₹15.00</h4>
                                                 </div>
                                             </div>
                                         </a>
@@ -77,7 +77,7 @@ function DiscountProduct() {
                                                 </h4>
                                                 <div className="price-area">
                                                     <span>Only</span>
-                                                    <h4 className="title">$15.00</h4>
+                                                    <h4 className="title">₹15.00</h4>
                                                 </div>
                                             </div>
                                         </a>

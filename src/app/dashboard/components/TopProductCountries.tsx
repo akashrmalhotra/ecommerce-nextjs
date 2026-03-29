@@ -38,7 +38,7 @@ function MyComponent() {
                 <div className="indec">
                   <div className="left">
                     <p>5.29%</p>
-                    <span>$79.00</span>
+                    <span>₹79.00</span>
                   </div>
                   <img src="/assets/images-dashboard/brand/arrow-m.png" alt="orrdr" />
                 </div>
@@ -63,7 +63,7 @@ function MyComponent() {
                 <div className="indec">
                   <div className="left">
                     <p>5.29%</p>
-                    <span>$79.00</span>
+                    <span>₹79.00</span>
                   </div>
                   <img src="/assets/images-dashboard/brand/arrow-m.png" alt="orrdr" />
                 </div>
@@ -88,7 +88,7 @@ function MyComponent() {
                 <div className="indec">
                   <div className="left">
                     <p>5.29%</p>
-                    <span>$79.00</span>
+                    <span>₹79.00</span>
                   </div>
                   <img src="/assets/images-dashboard/brand/arrow-m.png" alt="orrdr" />
                 </div>
@@ -113,7 +113,7 @@ function MyComponent() {
                 <div className="indec">
                   <div className="left">
                     <p>5.29%</p>
-                    <span>$79.00</span>
+                    <span>₹79.00</span>
                   </div>
                   <img src="/assets/images-dashboard/brand/arrow-m.png" alt="orrdr" />
                 </div>
@@ -138,7 +138,7 @@ function MyComponent() {
                 <div className="indec">
                   <div className="left">
                     <p>5.29%</p>
-                    <span>$79.00</span>
+                    <span>₹79.00</span>
                   </div>
                   <img src="/assets/images-dashboard/brand/arrow-m.png" alt="orrdr" />
                 </div>

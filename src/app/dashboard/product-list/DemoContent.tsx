@@ -33,16 +33,16 @@ const ProductTable = () => {
       setProducts(JSON.parse(savedProducts));
     } else {
       const defaultProducts = [
-        { id: 1, name: 'Rede Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/15.png' },
-        { id: 2, name: 'Green Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$120', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/15.png' },
-        { id: 3, name: 'Hree Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$125', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/17.png' },
-        { id: 4, name: 'Kabir Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$133', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/18.png' },
-        { id: 5, name: 'leer Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$132', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/19.png' },
-        { id: 6, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/14.png' },
-        { id: 7, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/17.png' },
-        { id: 8, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/18.png' },
-        { id: 9, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/17.png' },
-        { id: 10, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '$200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/19.png' },
+        { id: 1, name: 'Rede Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/15.png' },
+        { id: 2, name: 'Green Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹120', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/15.png' },
+        { id: 3, name: 'Hree Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹125', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/17.png' },
+        { id: 4, name: 'Kabir Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹133', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/18.png' },
+        { id: 5, name: 'leer Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹132', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/19.png' },
+        { id: 6, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/14.png' },
+        { id: 7, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/17.png' },
+        { id: 8, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/18.png' },
+        { id: 9, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/17.png' },
+        { id: 10, name: 'Purple Blue Gradient iPhone Case', productNo: '#87845', category: 'Electronics', price: '₹200', date: '03/02/2022', stock: 250, image: '/assets/images-dashboard/grocery/19.png' },
       ];
       setProducts(defaultProducts);
       localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(defaultProducts));
@@ -102,7 +102,7 @@ const ProductTable = () => {
       name: 'New Product',
       productNo: `#${Math.floor(100000 + Math.random() * 900000)}`,
       category: 'Electronics',
-      price: '$100',
+      price: '₹100',
       date: new Date().toLocaleDateString(),
       stock: 100,
       image: '/assets/images-dashboard/grocery/19.png'

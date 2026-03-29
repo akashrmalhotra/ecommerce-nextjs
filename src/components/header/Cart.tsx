@@ -44,7 +44,7 @@ const CartDropdown: React.FC = () => {
                 </Link>
                 <div className="number">
                   {item.quantity} <i className="fa-regular fa-x" />
-                  <span>${(item.price * item.quantity).toFixed(2)}</span>
+                  <span>₹{(item.price * item.quantity).toFixed(2)}</span>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ const CartDropdown: React.FC = () => {
           <div className="bottom-content-deals mt--10">
             <div className="top">
               <span>Sub Total:</span>
-              <span className="number-c">${total.toFixed(2)}</span>
+              <span className="number-c">₹{total.toFixed(2)}</span>
             </div>
             <div className="single-progress-area-incard">
               <div className="progress">
@@ -70,7 +70,7 @@ const CartDropdown: React.FC = () => {
             </div>
             {total < freeShippingThreshold && (
               <p>
-                Spend More <span>${remaining.toFixed(2)}</span> to reach{' '}
+                Spend More <span>₹{remaining.toFixed(2)}</span> to reach{' '}
                 <span>Free Shipping</span>
               </p>
             )}

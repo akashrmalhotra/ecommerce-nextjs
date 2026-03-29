@@ -139,8 +139,8 @@ const CompareElements: React.FC = () => {
                             Priyoshop has brought to you the Hijab 3 Pieces Combo Pack PS23...
                           </p>
                           <span className="product-price mb--15 d-block" style={{ color: "#DC2626", fontWeight: 600 }}>
-                            ${blogPost.price}
-                            <span className="old-price ml--15">$69.35</span>
+                            ₹{blogPost.price}
+                            <span className="old-price ml--15">₹69.35</span>
                           </span>
 
                           <div className="product-bottom-action">
@@ -485,11 +485,11 @@ const CompareElements: React.FC = () => {
                     </div>
                     <div className="single-offer-area">
                       <div className="icon"><img src="/assets/images/shop/02.svg" alt="icon" /></div>
-                      <div className="details"><p>Flat $250 off on Citi Credit Card EMI Transactions over $30</p></div>
+                      <div className="details"><p>Flat ₹250 off on Citi Credit Card EMI Transactions over ₹30</p></div>
                     </div>
                     <div className="single-offer-area">
                       <div className="icon"><img src="/assets/images/shop/03.svg" alt="icon" /></div>
-                      <div className="details"><p>Free Worldwide Shipping on all orders over $100</p></div>
+                      <div className="details"><p>Free Worldwide Shipping on all orders over ₹100</p></div>
                     </div>
                   </div>
                   <div className="our-payment-method">

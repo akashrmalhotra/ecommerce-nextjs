@@ -12,7 +12,7 @@ function BannerFive() {
         <div className="col-lg-9">
           <div className="banner-left-five-area-start bg_image">
             <div className="inner-content-banner-five">
-              <span>Get up to 30% off on your first $150 purchase</span>
+              <span>Get up to 30% off on your first ₹150 purchase</span>
               <h1 className="title">
                 Do not miss our amazing <br />
                 grocery deals

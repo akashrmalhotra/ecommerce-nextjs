@@ -14,7 +14,7 @@ const TransactionsTable = () => {
   const data = useMemo<Tx[]>(() =>
     Array.from({ length: 12 }, (_, i) => ({
       id: `#55414${i}`,
-      amount: '$241.00',
+      amount: '₹241.00',
       method: { image: `/assets/images-dashboard/transection/0${(i % 6) + 1}.jpg`, name: 'Visa' },
       date: '2.06.2024',
       action: 'Details'

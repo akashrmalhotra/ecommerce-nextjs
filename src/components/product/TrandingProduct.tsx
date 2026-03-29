@@ -38,8 +38,8 @@ function TrandingProduct() {
                                                     </Link>
                                                     <span className="availability">500g Pack</span>
                                                     <div className="price-area">
-                                                        <span className="current">$36.00</span>
-                                                        <div className="previous">$36.00</div>
+                                                        <span className="current">₹36.00</span>
+                                                        <div className="previous">₹36.00</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -62,8 +62,8 @@ function TrandingProduct() {
                                                     </a>
                                                     <span className="availability">500g Pack</span>
                                                     <div className="price-area">
-                                                        <span className="current">$36.00</span>
-                                                        <div className="previous">$36.00</div>
+                                                        <span className="current">₹36.00</span>
+                                                        <div className="previous">₹36.00</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -86,8 +86,8 @@ function TrandingProduct() {
                                                     </Link>
                                                     <span className="availability">500g Pack</span>
                                                     <div className="price-area">
-                                                        <span className="current">$36.00</span>
-                                                        <div className="previous">$36.00</div>
+                                                        <span className="current">₹36.00</span>
+                                                        <div className="previous">₹36.00</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -110,8 +110,8 @@ function TrandingProduct() {
                                                     </a>
                                                     <span className="availability">500g Pack</span>
                                                     <div className="price-area">
-                                                        <span className="current">$36.00</span>
-                                                        <div className="previous">$36.00</div>
+                                                        <span className="current">₹36.00</span>
+                                                        <div className="previous">₹36.00</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -134,8 +134,8 @@ function TrandingProduct() {
                                                     </Link>
                                                     <span className="availability">500g Pack</span>
                                                     <div className="price-area">
-                                                        <span className="current">$36.00</span>
-                                                        <div className="previous">$36.00</div>
+                                                        <span className="current">₹36.00</span>
+                                                        <div className="previous">₹36.00</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -158,8 +158,8 @@ function TrandingProduct() {
                                                     </Link>
                                                     <span className="availability">500g Pack</span>
                                                     <div className="price-area">
-                                                        <span className="current">$36.00</span>
-                                                        <div className="previous">$36.00</div>
+                                                        <span className="current">₹36.00</span>
+                                                        <div className="previous">₹36.00</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -182,8 +182,8 @@ function TrandingProduct() {
                                                     </Link>
                                                     <span className="availability">500g Pack</span>
                                                     <div className="price-area">
-                                                        <span className="current">$36.00</span>
-                                                        <div className="previous">$36.00</div>
+                                                        <span className="current">₹36.00</span>
+                                                        <div className="previous">₹36.00</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -206,8 +206,8 @@ function TrandingProduct() {
                                                     </Link>
                                                     <span className="availability">500g Pack</span>
                                                     <div className="price-area">
-                                                        <span className="current">$36.00</span>
-                                                        <div className="previous">$36.00</div>
+                                                        <span className="current">₹36.00</span>
+                                                        <div className="previous">₹36.00</div>
                                                     </div>
                                                 </div>
                                             </div>

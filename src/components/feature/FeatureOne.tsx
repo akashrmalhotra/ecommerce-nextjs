@@ -29,7 +29,7 @@ function FeatureOne() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">Wide Assortment</h4>
-                                    <span>Orders $50 or more</span>
+                                    <span>Orders ₹50 or more</span>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ function FeatureOne() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">Easy Return Policy</h4>
-                                    <span>Orders $50 or more</span>
+                                    <span>Orders ₹50 or more</span>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ function FeatureOne() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">Best Prices &amp; Offers</h4>
-                                    <span>Orders $50 or more</span>
+                                    <span>Orders ₹50 or more</span>
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ function FeatureOne() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">Support 24/7</h4>
-                                    <span>Orders $50 or more</span>
+                                    <span>Orders ₹50 or more</span>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +181,7 @@ function FeatureOne() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">Best Prices &amp; Offers</h4>
-                                    <span>Orders $50 or more</span>
+                                    <span>Orders ₹50 or more</span>
                                 </div>
                             </div>
                         </div>

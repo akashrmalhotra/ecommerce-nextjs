@@ -145,8 +145,8 @@ export default function Home() {
                             style={{ color: "#DC2626", fontWeight: 600 }}
                           >
                             {" "}
-                            $35
-                            <span className="old-price ml--15">$69.35</span>
+                            ₹35
+                            <span className="old-price ml--15">₹69.35</span>
                           </span>
                           <div className="product-bottom-action">
                             <a
@@ -544,8 +544,8 @@ export default function Home() {
                       </div>
                       <div className="details">
                         <p>
-                          Flat $250 off on Citi-branded Credit Card EMI Transactions
-                          on orders of $30 and above T&amp;C
+                          Flat ₹250 off on Citi-branded Credit Card EMI Transactions
+                          on orders of ₹30 and above T&amp;C
                         </p>
                       </div>
                     </div>
@@ -554,7 +554,7 @@ export default function Home() {
                         <img src="/assets/images/shop/03.svg" alt="icon" />
                       </div>
                       <div className="details">
-                        <p>Free Worldwide Shipping on all orders over $100</p>
+                        <p>Free Worldwide Shipping on all orders over ₹100</p>
                       </div>
                     </div>
                   </div>

@@ -42,7 +42,7 @@ const BannerThreeSwiper = () => {
                 <div className="col-lg-12">
                   <div className="banner-inner-content-three">
                     <span className="pre">
-                      Get up to 30% off on your first $150 purchase
+                      Get up to 30% off on your first ₹150 purchase
                     </span>
                     <h1 className="title">
                       Don’t miss our amazing <br />
@@ -71,7 +71,7 @@ const BannerThreeSwiper = () => {
                 <div className="col-lg-12">
                   <div className="banner-inner-content-three">
                     <span className="pre">
-                      Get up to 10% off on your first $250 purchase
+                      Get up to 10% off on your first ₹250 purchase
                     </span>
                     <h1 className="title">
                       Check out our incredible <br /> deals today

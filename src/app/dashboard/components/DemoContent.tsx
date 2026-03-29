@@ -29,7 +29,7 @@ function DemoContent() {
                         <div className="single-over-fiew-card">
                             <span className="top-main">Revenue</span>
                             <div className="bottom">
-                                <h2 className="title">$1280</h2>
+                                <h2 className="title">₹1280</h2>
                                 <div className="right-primary">
                                     <div className="increase">
                                         <i className="fa-light fa-arrow-up" />
@@ -74,7 +74,7 @@ function DemoContent() {
                         <div className="single-over-fiew-card">
                             <span className="top-main">Revenue</span>
                             <div className="bottom">
-                                <h2 className="title">$89k</h2>
+                                <h2 className="title">₹89k</h2>
                                 <div className="right-primary">
                                     <div className="increase">
                                         <i className="fa-light fa-arrow-up" />

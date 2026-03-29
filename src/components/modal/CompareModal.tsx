@@ -53,13 +53,13 @@ const ModalComponent: React.FC<ModalProps> = ({ show, handleClose }) => {
                     <div className="compare-main-wrapper-body productname">
                         <div className="single-compare-elements name">Price</div>
                         <div className="single-compare-elements price">
-                            <p>$25.00</p>
+                            <p>₹25.00</p>
                         </div>
                         <div className="single-compare-elements price">
-                            <p>$39.25</p>
+                            <p>₹39.25</p>
                         </div>
                         <div className="single-compare-elements price">
-                            <p>$12.00</p>
+                            <p>₹12.00</p>
                         </div>
                     </div>
                     <div className="compare-main-wrapper-body productname">

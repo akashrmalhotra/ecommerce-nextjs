@@ -39,9 +39,9 @@ function ComponentName() {
                                                             <small>SKU: FWM15VKT</small>
                                                         </div>
                                                     </td>
-                                                    <td className="text-center">$10.99</td>
+                                                    <td className="text-center">₹10.99</td>
                                                     <td className="text-center">1</td>
-                                                    <td className="text-right">$10.99</td>
+                                                    <td className="text-right">₹10.99</td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -50,9 +50,9 @@ function ComponentName() {
                                                             <small>SKU: FWM15VKT</small>
                                                         </div>
                                                     </td>
-                                                    <td className="text-center">$20.00</td>
+                                                    <td className="text-center">₹20.00</td>
                                                     <td className="text-center">3</td>
-                                                    <td className="text-right">$60.00</td>
+                                                    <td className="text-right">₹60.00</td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -61,9 +61,9 @@ function ComponentName() {
                                                             <small>SKU: KVM15VK</small>
                                                         </div>
                                                     </td>
-                                                    <td className="text-center">$640.00</td>
+                                                    <td className="text-center">₹640.00</td>
                                                     <td className="text-center">1</td>
-                                                    <td className="text-right">$640.00</td>
+                                                    <td className="text-right">₹640.00</td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -72,27 +72,27 @@ function ComponentName() {
                                                             <small>SKU: 98HFG</small>
                                                         </div>
                                                     </td>
-                                                    <td className="text-center">$240.00</td>
+                                                    <td className="text-center">₹240.00</td>
                                                     <td className="text-center">1</td>
-                                                    <td className="text-right">$240.00</td>
+                                                    <td className="text-right">₹240.00</td>
                                                 </tr>
                                                 <tr>
                                                     <td colSpan={3} className="text-end f-w-600">
                                                         SubTotal
                                                     </td>
-                                                    <td className="text-right">$1710.99</td>
+                                                    <td className="text-right">₹1710.99</td>
                                                 </tr>
                                                 <tr>
                                                     <td colSpan={3} className="text-end f-w-600">
                                                         Tax
                                                     </td>
-                                                    <td className="text-right">$85.99</td>
+                                                    <td className="text-right">₹85.99</td>
                                                 </tr>
                                                 <tr>
                                                     <td colSpan={3} className="text-end f-w-600">
                                                         Grand Total
                                                     </td>
-                                                    <td className="text-right f-w-600">$1795.99</td>
+                                                    <td className="text-right f-w-600">₹1795.99</td>
                                                 </tr>
                                             </tbody>
                                         </table>

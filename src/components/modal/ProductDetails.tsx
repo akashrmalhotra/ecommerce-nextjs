@@ -113,7 +113,7 @@ const ProductDetails: React.FC<ModalProps> = ({
                   </h2>
 
                   <span className="product-price">
-                    <span className="old-price">$9.35</span> ${totalPrice}
+                    <span className="old-price">₹9.35</span> ₹{totalPrice}
                   </span>
 
                   <p>

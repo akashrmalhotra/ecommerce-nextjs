@@ -144,7 +144,7 @@ export default function CheckOutMain() {
                                             <img src={item.image} alt={item.title} />
                                             <span className="title">{item.title} × {item.quantity}</span>
                                         </div>
-                                        <span className="price">${(item.price * item.quantity).toFixed(2)}</span>
+                                        <span className="price">₹{(item.price * item.quantity).toFixed(2)}</span>
                                     </div>
                                 ))
                             )}
@@ -153,7 +153,7 @@ export default function CheckOutMain() {
                                 <div className="left-area">
                                     <span>Subtotal</span>
                                 </div>
-                                <span className="price">${subtotal.toFixed(2)}</span>
+                                <span className="price">₹{subtotal.toFixed(2)}</span>
                             </div>
 
                             {discount > 0 && (
@@ -169,14 +169,14 @@ export default function CheckOutMain() {
                                 <div className="left-area">
                                     <span>Shipping</span>
                                 </div>
-                                <span className="price">${shippingCost.toFixed(2)}</span>
+                                <span className="price">₹{shippingCost.toFixed(2)}</span>
                             </div>
 
                             <div className="single-shop-list">
                                 <div className="left-area">
                                     <span style={{ fontWeight: 600, color: '#2C3C28' }}>Total Price:</span>
                                 </div>
-                                <span className="price" style={{ color: '#629D23' }}>${total.toFixed(2)}</span>
+                                <span className="price" style={{ color: '#629D23' }}>₹{total.toFixed(2)}</span>
                             </div>
 
                             {/* Payment methods */}

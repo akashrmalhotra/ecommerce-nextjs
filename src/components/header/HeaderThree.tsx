@@ -457,7 +457,7 @@ function HeaderThree() {
                                                                     </a>
                                                                     <div className="number">
                                                                         1 <i className="fa-regular fa-x" />
-                                                                        <span>$36.00</span>
+                                                                        <span>₹36.00</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -478,7 +478,7 @@ function HeaderThree() {
                                                                     </Link>
                                                                     <div className="number">
                                                                         1 <i className="fa-regular fa-x" />
-                                                                        <span>$36.00</span>
+                                                                        <span>₹36.00</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -499,7 +499,7 @@ function HeaderThree() {
                                                                     </Link>
                                                                     <div className="number">
                                                                         1 <i className="fa-regular fa-x" />
-                                                                        <span>$36.00</span>
+                                                                        <span>₹36.00</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -511,7 +511,7 @@ function HeaderThree() {
                                                             <div className="bottom-content-deals mt--10">
                                                                 <div className="top">
                                                                     <span>Sub Total:</span>
-                                                                    <span className="number-c">$108.00</span>
+                                                                    <span className="number-c">₹108.00</span>
                                                                 </div>
                                                                 <div className="single-progress-area-incard">
                                                                     <div className="progress">
@@ -526,7 +526,7 @@ function HeaderThree() {
                                                                     </div>
                                                                 </div>
                                                                 <p>
-                                                                    Spend More <span>$125.00</span> to reach{" "}
+                                                                    Spend More <span>₹125.00</span> to reach{" "}
                                                                     <span>Free Shipping</span>
                                                                 </p>
                                                             </div>

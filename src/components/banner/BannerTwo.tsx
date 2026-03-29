@@ -14,7 +14,7 @@ function BannerTwo() {
             <div className="banner-bg-iamge-area bg_banner-2 bg_image">
               <div className="content">
                 <span className="pre-title">
-                  Get up to 30% off on your first $150 purchase
+                  Get up to 30% off on your first ₹150 purchase
                 </span>
                 <h1 className="title">
                   Feed Your Family at the <br />
@@ -39,7 +39,7 @@ function BannerTwo() {
                   </a>
                   <div className="price-area">
                     <span>from</span>
-                    <h3 className="title">$80.99</h3>
+                    <h3 className="title">₹80.99</h3>
                   </div>
                 </div>
               </div>
