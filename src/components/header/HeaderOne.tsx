@@ -190,7 +190,7 @@ function HeaderOne() {
                                         </div>
                                     </div>
                                     <div className="contact-number-area">
-                                        <p>Need help? Call Us: <a href="tel:+4733378901">+258 3268 21485</a></p>
+                                        <p>Need help? Call Us: <a href="tel:+4733378901">+912 4546 5645</a></p>
                                     </div>
                                 </div>
                             </div>

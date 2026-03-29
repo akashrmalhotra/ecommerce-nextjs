@@ -212,7 +212,7 @@ function HeaderThree() {
                                         <div className="contact-number-area">
                                             <p>
                                                 Need help? Call Us:
-                                                <a href="#">+258 3268 21485</a>
+                                                <a href="#">+912 4546 5645</a>
                                             </p>
                                         </div>
                                     </div>
